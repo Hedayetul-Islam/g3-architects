@@ -5,16 +5,25 @@
     font-family: "Work Sans", sans-serif;
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 8px;
+}
 
 header{
     background-color: rgba(255, 144, 14, 0.10);
+    padding: 20px 240px;
 }
 
 /* nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 240px;
     align-items: center;
 }
 
@@ -38,4 +47,27 @@ nav li a{
     color: #131313;
     font-size: 45px;
     font-weight: 700px;
+}
+
+/* Banner related styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.banner-description{
+    color: #727272;
+    margin-bottom: 2rem;
+}
+
+.banner img{
+    width: 100%;
 }
