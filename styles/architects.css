@@ -15,9 +15,18 @@
     border-radius: 8px;
 }
 
+.text-light-gray{
+    color: #727272;
+}
+
 header{
     background-color: rgba(255, 144, 14, 0.10);
     padding: 20px 240px;
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* nav related styles */
@@ -64,7 +73,6 @@ nav li a{
 }
 
 .banner-description{
-    color: #727272;
     margin-bottom: 2rem;
 }
 
@@ -72,6 +80,20 @@ nav li a{
     width: 100%;
 }
 
+/* quick-list-content design */
+
+.quick-list-content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
 
 /* Responsive Design */
 
@@ -79,11 +101,17 @@ nav li a{
     header{
         padding: 20px 20px;
     }
-    nav{
+    nav,
+    .quick-list-content
+    {
         flex-direction: column;
     }
 
     .banner-content{
         width: 330px;
+    }
+
+    .quick-list-img{
+        grid-template-columns: 1fr;
     }
 }
