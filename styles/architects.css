@@ -99,13 +99,29 @@ nav li a{
 
 .features-content{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     margin-top: 100px;
 }
 
-.feature-img img{
-    width: 100%;
+.feature-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
 }
+
+.feature-option{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 580px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.feature-img img{
+    height: 800px;
+}
+
 
 /* Responsive Design */
 
@@ -114,7 +130,8 @@ nav li a{
         padding: 20px 20px;
     }
     nav,
-    .quick-list-content
+    .quick-list-content,
+    .features-content
     {
         flex-direction: column;
     }
@@ -125,5 +142,13 @@ nav li a{
 
     .quick-list-img{
         grid-template-columns: 1fr;
+    }
+    .feature-option{
+        width: 300px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .feature-img img{
+        width: 100%;
     }
 }
