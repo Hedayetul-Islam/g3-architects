@@ -109,18 +109,25 @@ nav li a{
     font-weight: 700;
 }
 
+.border{
+    border-left: 5px solid #FF900E;
+}
+
 .feature-option{
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     width: 580px;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .feature-img img{
     height: 800px;
 }
+
+/* Facts related design */
+
 
 
 /* Responsive Design */
@@ -145,8 +152,11 @@ nav li a{
     }
     .feature-option{
         width: 300px;
+        text-align: center;
         margin: 5px;
         padding: 5px;
+        align-items: center;
+        margin: 0 auto;
     }
     .feature-img img{
         width: 100%;
